@@ -11,10 +11,10 @@ total = 0
 while num != 1:
 # Check if 'num' is an even number by using the modulo operator. If it is, divide it by 2.
     if num %2 == 0:
-        total = ( num /2 )
-        print( int( total )) # Print the new total and display it as an integer.
+        total = int(( num /2 )) # calculate the new total as an integer.
+        print( total, end= " " ) # Print the new total, and display it with a space between the numbers.
         num = total # When starting the loop again the new value of 'num' will be the value of 'total'.
     else:
-        total = ( num * 3 +1 ) # If 'num' is an odd number, multiply it by 3 and add 1.
-        print( int( total )) # Print the new total and display it as an integer.
+        total = int(( num * 3 +1 )) # If 'num' is an odd number, multiply it by 3 and add 1.
+        print( total, end= " " )
         num = total # When starting the loop again the new value of 'num' will be the value of 'total'.
