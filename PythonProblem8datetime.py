@@ -6,24 +6,56 @@ from datetime import date
 from datetime import time
 from datetime import datetime
 
+datum = datetime.now()
 
 if date.today().weekday() == 0: #assigning the names of the days to every weekday. Trying to figure out an easier and prettier way to do this.....
-    day = "Monday"
+    weekday = "Monday"
 elif date.today().weekday() == 1:
-    day = "Tuesday"
+    weekday = "Tuesday"
 elif date.today().weekday() == 2:
-    day = "Wednesday"
+    weekday = "Wednesday"
 elif date.today().weekday() == 3:
-    day = "Thursday"
+    weekdday = "Thursday"
 elif date.today().weekday() == 4:
-    day = "Friday"
+    weekdday = "Friday"
 elif date.today().weekday() == 5:
-    day = "Saturday"
+    weekdday = "Saturday"
 elif date.today().weekday() == 6:
-    day = "Sunday"
+    weekdday = "Sunday"
 
-newdate = date.today()
 
-datestring = newdate.split() #trying to split the values of date.today to work with each of them individually. Not working yet
+if datum.month == 1:
+    month = "January"
+elif datum.month == 2:
+    month = "February"
+elif datum.month == 3:
+    month = "March"
+elif datum.month == 4:
+    month = "April"
+elif datum.month == 5:
+    month = "May"
+elif datum.month == 6:
+    month = "June"
+elif datum.month == 7:
+    month = "July"
+elif datum.month == 8:
+    month = "August"
+elif datum.month == 9:
+    month = "September"
+elif datum.month == 10:
+    month = "October"
+elif datum.month == 11:
+    month = "November"
+elif datum.month == 12:
+    month = "December"
 
-print (datestring)
+if datum.day >= 3: #it works, but doesnt look pretty at all. Will have to figure out another way of doing it.
+    day = str((datum.day, "th"))
+elif datum.day == 2:
+    day = str((datum.day, "nd"))
+else:
+    day = str((datum.day, "st"))
+
+print(weekday, month, day)
+
+
