@@ -15,5 +15,9 @@ while length > half: #the loop will stop when half of all words are removed.
     x = x - 1 #after removing the last word, x becomes -2, so it removes the second last word.
     #  (after the last one is already gone, so from the string that was entered, the last and third last word are gone etc.)
     
+joinedstring = ' '.join([ str(word) for word in wordlist ]) #Make the list of words into a string again and then join them with a single space in between every seperate word.
+    
+print(joinedstring) #print the new joined string
 
-print (wordlist) #this prints the new list. However it doesnt look quite right yet. I will work on that next.
+
+
