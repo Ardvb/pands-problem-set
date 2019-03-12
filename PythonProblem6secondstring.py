@@ -1,11 +1,17 @@
 # This program takes a user input string and outputs every second word.
-# first attempt. Can't figure out how to program it so it takes away every other word.
+# Finally figured out how to remove every second word!
 
 sentence = str(input("Please enter a sentence: "))
 
 wordlist = sentence.split()
+length = len(wordlist)
+half = len(wordlist) /2
+x = 1
 
-del wordlist[2]
-del wordlist[4]
 
-print(wordlist)
+while length > half:
+    wordlist.pop(x)
+    print(wordlist)
+    length = len(wordlist)
+    x = x + 1
+print (wordlist)
