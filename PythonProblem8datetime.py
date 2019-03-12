@@ -22,4 +22,8 @@ elif date.today().weekday() == 5:
 elif date.today().weekday() == 6:
     day = "Sunday"
 
-print(date.today())
+newdate = date.today()
+
+datestring = newdate.split() #trying to split the values of date.today to work with each of them individually. Not working yet
+
+print (datestring)
