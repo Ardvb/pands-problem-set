@@ -16,7 +16,7 @@ add0 = "" #added this variable that changes to 0 if it is less than 10 minutes p
 
 
 if date.today().weekday() == 0: #assigning the names of the days to every weekday. (There probably is a module for this, but I prefer to do it this way for now.)
-    weekday = "Monday" # This way I can see exactly what I am doing and I learn more doing it that way.
+    weekday = "Monday" # This way I can see exactly what I am doing and I believe I learn more doing it that way.
 elif date.today().weekday() == 1:
     weekday = "Tuesday"
 elif date.today().weekday() == 2:
@@ -72,7 +72,7 @@ else:
 if hour >= 13: #by subtracting 12 from all hours 13 or higher, all hours apart from 12, will be shown with 1 digit.
     hour = hour-12
 
-if minute <10: #if it's less than 10 minutes past the hour, the variable 'add0' will become 0.
+if minute <10: #if it is less than 10 minutes past the hour, the variable 'add0' will become 0.
     add0 = "0"
 
-print("Today's date and time is {}, {} {}{} {} at {}:{}{}{} ".format( weekday, month, day, addon, year, hour, add0, minute, pmam )) #"Today's date and time is Tuesday, March 12th 2019 at 7:20pm"
+print("Today's date and time is {}, {} {}{} {} at {}:{}{}{} ".format( weekday, month, day, addon, year, hour, add0, minute, pmam )) #print it like this: "Today's date and time is Tuesday, March 12th 2019 at 7:20pm"
