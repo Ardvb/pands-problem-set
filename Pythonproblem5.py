@@ -8,12 +8,12 @@ count = 0 # This variable starts at 0 and will be used to count up and check eve
 total = 0 # This variable will be used to count the times the input 'num' can be divided by the variable 'count'. 
 
 
-while count <= num: # This loop will keep going until it reaches the number entered by the user, or until 'total' >2
+while count <= num: # This loop will keep going until it reaches the number entered by the user( or until 'total' >2).
         count += 1 # The count is now 1, and will increase with 1 every time the loop is started.
         if num % count == 0: 
                 total += 1 # If 'num' is divisible by 'count', 1 will be added to the total.
 if total > 2: # If 'total' reaches 3, this means 'num' is divisible by at least 3 numbers, and so it is not a prime number.
-        # the loop will end and a message "this is not a prime number" will be displayed.
+        # The loop will end and a message "this is not a prime number" will be displayed.
         print(" This is not a prime number ")
 else:
         print(" This is a prime number ")
