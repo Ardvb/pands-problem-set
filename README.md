@@ -17,5 +17,6 @@ I changed this method as soon as I read that this was the wrong way go go about 
 
 =======
 >>>>>>> 0e6d9e9f8c63a09acfadfeb627c2c34872fc6827
+#Problem 1: I needed to some to learn how to make sure the user enters an integer, and otherwise gets a message to try again. I used this link to get me on the way: https://www.quora.com/In-Python-3-7-0-how-do-you-ensure-that-the-user-inputs-an-integer-and-doesnt-break-your-code.
 #Problem 10: 
 It took me a while to figure out how to plot the functions of x. I had to look online for some clues to get me started. I found a tutorial on https://matplotlib.org/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py that really helped me on my way.
