@@ -8,9 +8,9 @@ sentence = str(input("Please enter a sentence: ")) # Asks user to enter a string
 wordlist = sentence.split() # This splits the entered sentence into separate words, using the blank space to recognize the seperate words, and makes it into a list.
 n = 0 # Sets 'n' as variable which will be used as a count.
 for word in wordlist:
-    n+=1 #adds 1 to n, so all words in the wordlist are considered for the criteria 'if n != 0', which then prints only all odd words, and removes every second (even) word.
+    n+=1 # Adds 1 to n, so all words in the wordlist are considered for the criteria 'if n != 0', which then prints only all odd words, and removes every second (even) word.
     if n%2 != 0:
-        print(word, end=' ') #print all odd words, without going to a new line after every word, with a space between them.
+        print(word, end=' ') # Print all odd words, without going to a new line after every word, with a space between them.
 
 
 
