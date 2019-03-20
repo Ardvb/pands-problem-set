@@ -5,11 +5,11 @@ while True:
     try:
         num = int( input("Please enter a positive integer: ")) # Ask the user to input a positive integer. The input from the user is the variable 'num'.
     except ValueError:
-        print("That is not a positive integer, try again") #if the user enters a non numeric input, a message will show and program runs again.
+        print("That is not a positive integer, try again") # If the user enters a non numeric input, a message will show and program runs again.
         continue
     if num <= 0:
-        print("That is not a positive integer, try again") #if the user enters a number that is 0 or lower than 0, a message will show and program runs again.
-        continue  # adapted from: https://stackoverflow.com/questions/23326099/how-can-i-limit-the-user-input-to-only-integers-in-python
+        print("That is not a positive integer, try again") # If the user enters a number that is 0 or lower than 0, a message will show and program runs again.
+        continue  # Adapted from: https://stackoverflow.com/questions/23326099/how-can-i-limit-the-user-input-to-only-integers-in-python
     total = 0 # Create a variable called 'total', that starts at 0.
 
 

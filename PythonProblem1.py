@@ -3,7 +3,7 @@
 
 while True: # Only run the rest of the program if the user enters an integer
     # Otherwise display a message and start program again.
-    # adapted from: https://stackoverflow.com/questions/23326099/how-can-i-limit-the-user-input-to-only-integers-in-python
+    # Adapted from: https://stackoverflow.com/questions/23326099/how-can-i-limit-the-user-input-to-only-integers-in-python
     try:
         i = int(input(" Please enter a positive integer: ")) # Ask the user to enter a positive integer.
     except ValueError:
