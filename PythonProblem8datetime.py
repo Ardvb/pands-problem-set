@@ -7,7 +7,7 @@ from datetime import time
 from datetime import datetime
 
 datum = datetime.now() # Created variable "datum" that will represent the exact date and time when the program is run.
-year = datum.year 
+year = datum.year # Created variable "year", that will represent the value of datum.year. Did the same for day, hour and minute.
 day = datum.day
 hour = datum.hour
 minute = datum.minute
