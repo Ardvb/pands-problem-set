@@ -6,6 +6,9 @@ while True:
     except ValueError:
         print("That is not a floating point number, try again") # If user enters a non numeric value, an error message will appear, and the program will start again.
         continue   
+    if number <= 0:
+        print("That is not a positive number, please try again") # check if input is not 0 or a negative number. If it is, show a message and run program again.
+        continue
  # Adapted from: https://stackoverflow.com/questions/23326099/how-can-i-limit-the-user-input-to-only-integers-in-python
     sqroot = number**(0.5) # Calculate the square root by raising the variable 'number' to the power of 0.5
 

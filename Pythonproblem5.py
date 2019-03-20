@@ -10,7 +10,7 @@ while True: # Make sure user enters a numeric value
                 continue
         if num <= 0:
                 print(" That is not a positive integer, please try again") #if a number smaller or equal to 0 has been entered, a message will be shown and program is ran again.
-                continue
+                continue # Adapted from: https://stackoverflow.com/questions/23326099/how-can-i-limit-the-user-input-to-only-integers-in-python
         count = 0 # This variable starts at 0 and will be used to count up and check every number up to the user input 'num'.
         total = 0 # This variable will be used to count the times the input 'num' can be divided by the variable 'count'. 
 
