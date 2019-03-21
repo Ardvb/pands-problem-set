@@ -1,3 +1,4 @@
+# Ard van Balkom
 # This program takes a positive floating point number and returns an approximation of it's square root
 
 while True:

@@ -1,3 +1,4 @@
+# Ard van Balkom
 # Asking user for a positive integer. then output the successive value.
 # If current value is even, then it is divided by 2. If current value is odd, it is multiplied by 3 and 1 is added. If current value is 1, the program ends.
 

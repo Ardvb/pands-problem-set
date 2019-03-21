@@ -1,3 +1,4 @@
+# Ard van Balkom
 # This program will display a plot of the functions x, x*x and 2**x, in the range[0,4]
 
 

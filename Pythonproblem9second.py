@@ -1,3 +1,4 @@
+# Ard van Balkom
 # This program reads a textfile of the user's choice and displays every second line.
 
 text = input("Please enter the filename of the textfile you would like to open: ") # Let the user input a textfile he or she would like to open

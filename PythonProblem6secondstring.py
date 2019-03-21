@@ -1,5 +1,4 @@
-# This program takes a user input string and outputs every second word.
-
+# Ard van Balkom
 # This program takes a user input string and outputs every second word.
 
 

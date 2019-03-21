@@ -1,3 +1,4 @@
+# Ard van Balkom
 # This program will output today's date and time.
 
 import datetime # This module imports the current date and time into this python program
