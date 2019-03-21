@@ -9,7 +9,7 @@ while True: # Run a while loop that will run indefinitely.
     except ValueError:  # Don't run the rest of the program if the user makes a ValueError (enters a non-integer), instead run the following print command.
         print(" That is not an integer, try again")
         continue # Return to the beginning of the loop, so user can try again to enter an integer.
-
+# Used page 82 of http://spronck.net/pythonbook/pythonbook.pdf to learn about the infinite while loop.
     x = sum (range(1, i + 1)) # Calculate the sum of all numbers betweem 1, and the integer entered (including the entered integer, hence the +1 at the end).
 
     if i>0: # Only run the calculation if the input was a positive integer
