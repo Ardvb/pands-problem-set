@@ -1,5 +1,5 @@
 # Ard van Balkom, 7-2-19
-# Problem 1, enter a positive integer and calculate the sum of all numbers between 1 and the integer entered.
+# Problem 1. Enter a positive integer and calculate the sum of all numbers between 1 and the integer entered.
 
 # The code to check if user enters an integer, using 'try' and 'except' is adapted from: https://stackoverflow.com/questions/23326099/how-can-i-limit-the-user-input-to-only-integers-in-python
 
