@@ -23,13 +23,13 @@ elif date.today().weekday() == 1:
 elif date.today().weekday() == 2:
     weekday = "Wednesday"
 elif date.today().weekday() == 3:
-    weekdday = "Thursday"
+    weekday = "Thursday"
 elif date.today().weekday() == 4:
-    weekdday = "Friday"
+    weekday = "Friday"
 elif date.today().weekday() == 5:
-    weekdday = "Saturday"
+    weekday = "Saturday"
 elif date.today().weekday() == 6:
-    weekdday = "Sunday"
+    weekday = "Sunday"
 
 
 if datum.month == 1: # Assigning the names of the months to each months' number. (Again choosing not to use the calender module).
