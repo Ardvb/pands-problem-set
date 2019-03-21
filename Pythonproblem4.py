@@ -1,5 +1,5 @@
 # Ard van Balkom, 9-2-19
-# Problem 4. Asking user for a positive integer. then output the successive value.
+# Problem 4. Asks user for a positive integer. then output the successive value.
 # If current value is even, then it is divided by 2. If current value is odd, it is multiplied by 3 and 1 is added. If current value is 1, the program ends.
 
 while True: # Run a while loop that will run indefinitely.
@@ -12,7 +12,7 @@ while True: # Run a while loop that will run indefinitely.
         print("That is not a positive integer, try again") 
         continue  # Return to the beginning of the loop, so user can try again to enter an integer.
         # Adapted from: https://stackoverflow.com/questions/23326099/how-can-i-limit-the-user-input-to-only-integers-in-python
-        # Used page 82 of http://spronck.net/pythonbook/pythonbook.pdf for the infinite while loop.
+        # Used page 82 of http://spronck.net/pythonbook/pythonbook.pdf to learn about the infinite while loop.
     total = 0 # Create a variable 'total', starting at 0, that will be calculated after user enters 'num' and will be printed.
 
 
