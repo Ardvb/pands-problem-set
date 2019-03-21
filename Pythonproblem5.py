@@ -1,4 +1,4 @@
-# Ard van Balkom
+# Ard van Balkom, 26-2-19
 # Ask user for a positive integer and tell user if it is a prime number.
 # A prime number is a number that can only be divided by itself and 1. This program will check every number from 1 up to and including the number entered by the user.
 # If the number entered is divisible by more than 2 other numbers, that means it is not a prime number.
