@@ -13,7 +13,7 @@ This repository contains the my solutions to the 2019 Problem Set for the Module
 
 
 
-# Each of the 10 files in this repository contains my solutions to set of problems:
+## Each of the 10 files in this repository contains my solutions to set of problems:
 
 ### Problem 1: "Enter a positive integer and calculate the sum of all numbers between one and the integer entered."
 ### Problem 2: "Display if today begins with the letter T."
