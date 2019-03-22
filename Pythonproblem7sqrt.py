@@ -1,5 +1,5 @@
-# Ard van Balkom
-# This program takes a positive floating point number and returns an approximation of it's square root
+# Ard van Balkom, 5-3-19
+# Problem 7. This program takes a positive floating point number and returns an approximation of it's square root
 
 while True: # Run a while loop that will run indefinitely.
     try: # Test the next block of code for errors
