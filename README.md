@@ -14,16 +14,16 @@ This repository contains the my solutions to the 2019 Problem Set for the Module
 
 ## Each of the 10 files in this repository contains my solutions to set of problems:
 
-### Problem 1: "Enter a positive integer and calculate the sum of all numbers between one and the integer entered."
-### Problem 2: "Display if today begins with the letter T."
-### Problem 3: "Print all numbers between 1000 and 10000, that are divisible by 6, but not by 12."
-### Problem 4: "Asks user for a positive integer. then output the successive value. If current value is even, then it is divided by 2. If current value is odd, it is multiplied by 3 and 1 is added. If current value is 1, the program ends."
-### Problem 5: "Ask user for a positive integer and tell user if it is a prime number."
-### Problem 6: "This program takes a user input string and outputs every second word."
-### Problem 7: "Take a positive floating point number and return an approximation of it's square root"
-### Problem 8: "This program outputs today's date and time."
-### Problem 9: "This program reads in a text ﬁle and outputs every second line. The program will take the ﬁlename from an argument on the command line."
-### Problem 10: "This program will display a plot of the functions x, x*x and 2**x, in the range[0,4]"
+#### Problem 1: "Enter a positive integer and calculate the sum of all numbers between one and the integer entered."
+#### Problem 2: "Display if today begins with the letter T."
+#### Problem 3: "Print all numbers between 1000 and 10000, that are divisible by 6, but not by 12."
+#### Problem 4: "Asks user for a positive integer. then output the successive value. If current value is even, then it is divided by 2. If current value is odd, it is multiplied by 3 and 1 is added. If current value is 1, the program ends."
+#### Problem 5: "Ask user for a positive integer and tell user if it is a prime number."
+#### Problem 6: "This program takes a user input string and outputs every second word."
+#### Problem 7: "Take a positive floating point number and return an approximation of it's square root"
+#### Problem 8: "This program outputs today's date and time."
+#### Problem 9: "This program reads in a text ﬁle and outputs every second line. The program will take the ﬁlename from an argument on the command line."
+#### Problem 10: "This program will display a plot of the functions x, x*x and 2**x, in the range[0,4]"
 
 
 
