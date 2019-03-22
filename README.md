@@ -4,9 +4,11 @@
 This repository contains the my solutions to the 2019 Problem Set for the Module Programming and Scripting at GMIT.
 [The instructions can be found here] https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf
 
-# How to run the code:
+
+## How to run the code:
 
 1. Make sure you have python installed on your device.
+
 
 # Each of the 10 files in this repository contains my solutions to set of problems:
 
