@@ -18,3 +18,4 @@ while True: # Run a while loop that will run indefinitely.
     else: 
         print (" That is not a positive integer, try again ") # If user entered a negative number, display a message asking user to try again.
         
+# I worked through chapters 1 till 12 from http://spronck.net/pythonbook/pythonbook.pdf and learned about things such as 'break' and 'continue' (page 74).

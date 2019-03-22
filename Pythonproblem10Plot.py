@@ -25,3 +25,7 @@ plt.title("Functions of x in range [0,4]") # Give the plot a title
 plt.legend() # Show the labels above the plot, so it is clear what each of the coloured lines represent.
 
 plt.show() # Show the plot
+
+# I used the video from week 9 by Ian McLoughlin: https://web.microsoftstream.com/video/f0788c1c-c7bd-4347-98ac-477186938ed7
+# I used https://www.geeksforgeeks.org/graph-plotting-in-python-set-1/ to find the right way of displaying this particular plot, and how to add a legend.
+# I used https://www.numpy.org/devdocs/reference/generated/numpy.linspace.html to learn about Numpy and how to use linspace.

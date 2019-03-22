@@ -24,8 +24,8 @@ while True: # Run a while loop that will run indefinitely.
     print("The square root of", number, "is approximately", round(guess,1)) # Display the final guess and round to 1 decimal
     break # The program ends after the square root is displayed.
 
-# Figured out most of it myself, but took a some inspiration of: https://stackoverflow.com/questions/28036087/better-way-to-approximate-the-square-root-using-exhaustive-enumeration
-
+# I took some inspiration from: https://stackoverflow.com/questions/28036087/better-way-to-approximate-the-square-root-using-exhaustive-enumeration
+# To learn how to use 'round', I used page 39 of http://spronck.net/pythonbook/pythonbook.pdf
 
 
 
