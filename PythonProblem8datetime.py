@@ -1,13 +1,13 @@
-# Ard van Balkom
-# This program will output today's date and time.
+# Ard van Balkom, 12-3-19
+# Problem 8. This program will output today's date and time.
 
 import datetime # This module imports the current date and time into this python program
-
+# Took a few things (such as the datetime.now option) from https://docs.python.org/3.7/library/datetime.html#datetime.datetime
 from datetime import date
 from datetime import time
 from datetime import datetime
 
-datum = datetime.now() # Created variable "datum" that will represent the exact date and time when the program is run.
+datum = datetime.now() # Created variable "datum" that will represent the exact date and time when the program is ran.
 year = datum.year # Created variable "year", that will represent the value of datum.year. Did the same for day, hour and minute.
 day = datum.day
 hour = datum.hour
@@ -16,8 +16,8 @@ add0 = "" # Added this variable that changes to 0 if it is less than 10 minutes 
 
 
 
-if date.today().weekday() == 0: # Assigning the names of the days to every weekday. (I know I can use the calender module, but I prefer to do it this way for now.)
-    weekday = "Monday" # This way I can see exactly what I am doing and I believe I learn more doing it that way.
+if date.today().weekday() == 0: # Assigning the names of the days to every weekday. (I found the calender module on stackoverflow, but I prefer to do it this way for now.)
+    weekday = "Monday" # This way I can see exactly what I am doing and I think that, as a beginner, I learn more doing it this way.
 elif date.today().weekday() == 1:
     weekday = "Tuesday"
 elif date.today().weekday() == 2:
@@ -77,3 +77,4 @@ if minute <10: # If it is less than 10 minutes past the hour, the variable 'add0
     add0 = "0"
 
 print("Today's date and time is {}, {} {}{} {} at {}:{}{}{}".format( weekday, month, day, addon, year, hour, add0, minute, pmam )) # Print it like this: "Today's date and time is Tuesday, March 12th 2019 at 7:20pm"
+# How to do the '.format' part, I learned from page 42 of http://spronck.net/pythonbook/pythonbook.pdf
