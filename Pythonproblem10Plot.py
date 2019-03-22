@@ -1,12 +1,12 @@
-# Ard van Balkom
-# This program will display a plot of the functions x, x*x and 2**x, in the range[0,4]
+# Ard van Balkom, 13-3-19
+# Problem 10. This program will display a plot of the functions x, x*x and 2**x, in the range[0,4]
 
 
 
-import matplotlib.pyplot as plt # Import matplotlib
-import numpy as np # Import Numpy for maths and working with arrays
+import matplotlib.pyplot as plt # Import matplotlib so we can plot functions.
+import numpy 
 
-x = np.linspace(0,4,5) # Set the min(0) and max(4) values for the x axis, and the number(5) of equally spaced samples.
+x = numpy.linspace(0,4,5) # Set the min(0) and max(4) values for the x axis, and the number(5) of equally spaced samples.
 # Connect the points for x = 0, x = 1, x = 2, x = 3 and x = 4.
 
 y1 = x # These are the 3 functions that will be plotted.
