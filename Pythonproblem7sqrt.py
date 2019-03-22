@@ -26,7 +26,7 @@ while True: # Run a while loop that will run indefinitely.
 
 # I took some inspiration from: https://stackoverflow.com/questions/28036087/better-way-to-approximate-the-square-root-using-exhaustive-enumeration
 # To learn how to use 'round', I used page 39 of http://spronck.net/pythonbook/pythonbook.pdf
-
+# To get me on my way with approximating the square root, I used Ian McLoughlins video https://web.microsoftstream.com/video/dca7ddaa-9512-4810-a758-237921e6440e
 
 
 
