@@ -1,5 +1,5 @@
 # Ard van Balkom, 9-2-19
-# This is a program that prints all numbers between 1000 and 10000 that are divisable by 6, but not 12.
+# This is a program that prints all numbers between 1000 and 10000 that are divisable by 6, but not by 12.
 
 for i in range(1000, 10000): # All numbers between 1000 and 10000 are used for the following if statement.
     if ((i%6) == 0 and (i%12) != 0 ): # By using the 'if' and the 'and' statement, only numbers for which both conditions are true are included. 
