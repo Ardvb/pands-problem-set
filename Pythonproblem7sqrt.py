@@ -1,16 +1,17 @@
 # Ard van Balkom
 # This program takes a positive floating point number and returns an approximation of it's square root
 
-while True:
-    try:
+while True: # Run a while loop that will run indefinitely.
+    try: # Test the next block of code for errors
         number = float(input("Please enter a positive floating point number: ")) # Get the user the input a floating point number
     except ValueError:
-        print("That is not a floating point number, try again") # If user enters a non numeric value, an error message will appear, and the program will start again.
-        continue   
+        print("That is not a floating point number, try again") # If user enters a non numeric value, an error message will appear.
+        continue   # The program will start again.
     if number <= 0:
-        print("That is not a positive number, please try again") # check if input is not 0 or a negative number. If it is, show a message and run program again.
-        continue
- # Adapted from: https://stackoverflow.com/questions/23326099/how-can-i-limit-the-user-input-to-only-integers-in-python
+        print("That is not a positive number, please try again") # check if input is not 0 or a negative number. If it is, show a message.
+        continue # Run program again from the beginning.
+# Adapted from: https://stackoverflow.com/questions/23326099/how-can-i-limit-the-user-input-to-only-integers-in-python
+# Used page 82 of http://spronck.net/pythonbook/pythonbook.pdf to learn about the infinite while loop.
 
     count = 0 # This variable will be used as a count for the amount of times the answer will be approximated.
     guess = 1.0 # The first guess is set as 1.0. This will change while running the loop, and will get closer and closer to the answer.
@@ -21,14 +22,15 @@ while True:
         count += 1                      
 
     print("The square root of", number, "is approximately", round(guess,1)) # Display the final guess and round to 1 decimal
-    break # The program ends after the user enters a floating point number and the square root is displayed
-# Figured out most it myself, but took a bit of inspiration of: https://stackoverflow.com/questions/28036087/better-way-to-approximate-the-square-root-using-exhaustive-enumeration
+    break # The program ends after the square root is displayed.
+
+# Figured out most of it myself, but took a some inspiration of: https://stackoverflow.com/questions/28036087/better-way-to-approximate-the-square-root-using-exhaustive-enumeration
 
 
 
 
 
-#Below is my old solution. However, I got inspired after watching the video in week 8 about approximating the squareroot, and changed it.
+# Below is my old solution. However, I got inspired after watching the video in week 8 about approximating the square root, and decided to try that approach.
 
     #sqroot = number**(0.5) # Calculate the square root by raising the variable 'number' to the power of 0.5
 
