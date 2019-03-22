@@ -8,4 +8,5 @@ for i in range(1000, 10000): # All numbers between 1000 and 10000 are used for t
         print(i, end= " ") # Print the numbers in the set range, that are divisible by 6, but not by 12. 
         # Used the 'end' function to make it all fit on the screen, with a space between each number.
 
-# I used page 73 of http://spronck.net/pythonbook/pythonbook.pdf to learn about the 'for' loop using a range of numbers.    
+# I used page 18 of http://spronck.net/pythonbook/pythonbook.pdf to learn about the modulo operator. 
+# I used the same book to learn about the 'for' loop using a range of numbers on page 73.   

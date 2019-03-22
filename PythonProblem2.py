@@ -3,7 +3,7 @@
 
 
 import datetime # Import the module 'datetime' and 'date', so that our python program can determine what date and time it is.
-
+# Used https://docs.python.org/3.7/library/datetime.html to learn about the datetime module and it's different options.
 if datetime.date.today().weekday() == 1 or datetime.date.today().weekday() == 3: # Use the weekday function (Every day has a number (Monday is 0, Tuesday is 1 etc.).
     # Counting starts at 0, so Tuesday is day 1 and Thursday is day 3. Check if today is either Tuesday or Thursday.
     print ( "Yes, today begins with a T" ) # Display a message saying today starts with a T.
