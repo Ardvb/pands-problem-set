@@ -56,16 +56,25 @@ https://stackoverflow.com/questions/743806/how-to-split-a-string-into-a-list
 
 https://stackoverflow.com/questions/28036087/better-way-to-approximate-the-square-root-using-exhaustive-enumeration
 
-https://web.microsoftstream.com/video/dca7ddaa-9512-4810-a758-237921e6440e
-
 https://stackoverflow.com/questions/7033987/python-get-files-from-command-line
 
-https://web.microsoftstream.com/video/72484dfc-1b50-4223-8039-bd6a69cab573
-
 https://stackoverflow.com/questions/7033987/python-get-files-from-command-line and https://www.pythonforbeginners.com/system/python-sys-argv
-
-https://web.microsoftstream.com/video/f0788c1c-c7bd-4347-98ac-477186938ed7
 
 https://www.geeksforgeeks.org/graph-plotting-in-python-set-1/
 
 https://www.numpy.org/devdocs/reference/generated/numpy.linspace.html
+
+
+####And these video lectures by Ian McLoughlin:
+
+https://web.microsoftstream.com/video/3ef695e3-9155-4487-b48e-0867834c76ad
+
+https://web.microsoftstream.com/video/82894055-5147-487d-ab35-6bf5c51cd889
+
+https://web.microsoftstream.com/video/20963781-2aea-4302-ba73-5b8f327f4189
+
+https://web.microsoftstream.com/video/dca7ddaa-9512-4810-a758-237921e6440e
+
+https://web.microsoftstream.com/video/72484dfc-1b50-4223-8039-bd6a69cab573
+
+https://web.microsoftstream.com/video/f0788c1c-c7bd-4347-98ac-477186938ed7
