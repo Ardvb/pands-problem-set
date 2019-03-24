@@ -18,7 +18,7 @@ This repository contains my solutions to the 2019 Problem Set for the Module Pro
 ## Each of the 10 files in this repository contains my solutions to set of problems:
 
 #### Problem 1: "Enter a positive integer and calculate the sum of all numbers between one and the integer entered."
-https://github.com/Ardvb/pands-problem-set/blob/master/Problem1screenshot.png
+![Problem1screenshot](https://user-images.githubusercontent.com/47186083/54874367-dcdd9400-4de1-11e9-9d1b-d514b9c9ab77.png)
 
 #### Problem 2: "Display if today begins with the letter T."
 #### Problem 3: "Print all numbers between 1000 and 10000, that are divisible by 6, but not by 12."
