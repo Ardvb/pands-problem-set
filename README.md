@@ -65,7 +65,7 @@ https://www.geeksforgeeks.org/graph-plotting-in-python-set-1/
 https://www.numpy.org/devdocs/reference/generated/numpy.linspace.html
 
 
-####And these video lectures by Ian McLoughlin:
+#### And these video lectures by Ian McLoughlin:
 
 https://web.microsoftstream.com/video/3ef695e3-9155-4487-b48e-0867834c76ad
 
