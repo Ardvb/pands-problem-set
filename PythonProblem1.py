@@ -19,3 +19,5 @@ while True: # Run a while loop that will run indefinitely.
         print (" That is not a positive integer, try again ") # If user entered a negative number, display a message asking user to try again.
         
 # I worked through chapters 1 till 12 from http://spronck.net/pythonbook/pythonbook.pdf and learned about things such as 'break' and 'continue' (page 74).
+# Used this video by Ian McLoughlin: https://web.microsoftstream.com/video/82894055-5147-487d-ab35-6bf5c51cd889 on how to use the if and else commands.
+# I learned more about 'break' and continue' through this video by Ian Mcloughlin: https://web.microsoftstream.com/video/3ef695e3-9155-4487-b48e-0867834c76ad

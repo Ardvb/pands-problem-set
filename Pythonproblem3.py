@@ -9,4 +9,5 @@ for i in range(1000, 10000): # All numbers between 1000 and 10000 are used for t
         # Used the 'end' function to make it all fit on the screen, with a space between each number.
 
 # I used page 18 of http://spronck.net/pythonbook/pythonbook.pdf to learn about the modulo operator. 
-# I used the same book to learn about the 'for' loop using a range of numbers on page 73.   
+# I used the same book to learn about the 'for' loop using a range of numbers on page 73.
+# I also learned a lot about for loops in this video by Ian McLoughlin: https://web.microsoftstream.com/video/20963781-2aea-4302-ba73-5b8f327f4189
