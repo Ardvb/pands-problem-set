@@ -4,17 +4,22 @@
 This repository contains my solutions to the 2019 Problem Set for the Module Programming and Scripting at GMIT.
 [The instructions can be found here] https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf
 
+## How to download the repository
 
+1. Go to my Github profile: https://github.com/Ardvb/
+2. Click on the download button and copy/paste the link: https://github.com/Ardvb/pands-problem-set
 
 ## How to run the code:
 
-1. Make sure you have python installed on your device.
+1. Make sure you have python installed on your device: https://www.python.org/downloads/
 
 
 
 ## Each of the 10 files in this repository contains my solutions to set of problems:
 
 #### Problem 1: "Enter a positive integer and calculate the sum of all numbers between one and the integer entered."
+https://github.com/Ardvb/pands-problem-set/blob/master/Problem1screenshot.png
+
 #### Problem 2: "Display if today begins with the letter T."
 #### Problem 3: "Print all numbers between 1000 and 10000, that are divisible by 6, but not by 12."
 #### Problem 4: "Asks user for a positive integer. then output the successive value. If current value is even, then it is divided by 2. If current value is odd, it is multiplied by 3 and 1 is added. If current value is 1, the program ends."
