@@ -3,7 +3,7 @@
 
 import sys # Import system-specific parameters and functions, so we can use sys.argv
 
-filename = sys.argv[-1] # This will get the last argument on the command line. ref: https://stackoverflow.com/questions/7033987/python-get-files-from-command-line
+filename = sys.argv[1] # This will get the last argument on the command line. ref: https://stackoverflow.com/questions/7033987/python-get-files-from-command-line
 
 with open(filename, "r") as f: # From now on the file that the user has opened and is read by the program, will be called 'f'.
     # Adapted from video material week 7 by Ian McLoughlin: https://web.microsoftstream.com/video/72484dfc-1b50-4223-8039-bd6a69cab573
