@@ -57,10 +57,12 @@ elif datum.month == 11:
 elif datum.month == 12:
     month = "December"
 
-if datum.day >= 3: # Adding the correct 'addon' to the date. If it is the 1st or the 2nd this will be different from the other dates.
+if datum.day >= 4: # Adding the correct 'addon' to the date. If it is the 1st or the 2nd this will be different from the other dates.
     addon = "th" # Variable 'addon' will display the correct addon to the date.
 elif datum.day == 2:
     addon = "nd"
+elif datum.day == 3:
+    addon = "rd"
 else:
     addon = "st"
 
